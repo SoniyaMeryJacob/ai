@@ -1,0 +1,119 @@
+<!-- realtime.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real Time AI</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Add custom CSS styles -->
+  <style>
+    .highlight {
+      background-color: #fff; /* white */
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #3498db; /* blue */
+    }
+   
+    .font-effect {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2c3e50; /* dark grey */
+      text-decoration: underline;
+    }
+
+    body {
+      /* You can add background image here */
+      color: #333; /* dark grey */
+    }
+
+    h1, h2, h3 {
+      color: #333; /* dark grey */
+    }
+
+    p {
+      color: #333; /* dark grey */
+      font-size: 18px;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.9); /* white with some transparency */
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .row {
+      margin-bottom: 30px;
+    }
+
+    .chatbot-img {
+      width: 50%;
+      height: auto;
+    }
+
+    .welcome-heading {
+      font-weight: bold;
+      color: #3498db; /* blue */
+    }
+
+    .large-docs {
+      font-weight: bold;
+      font-style: italic;
+      color: #e74c3c; /* red */
+    }
+
+    .continue-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: #1abc9c; /* turquoise */
+      color: #fff; /* white */
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .continue-button:hover {
+      background-color: #16a085; /* darker turquoise on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Heading Section -->
+  <div class="realtime realtime-fluid text-center">
+    <h1 class="display-3 welcome-heading">Welcome to Real Time and Knowledge base AI</h1>
+    <p class="lead" style="font-size: 20px;">Do you have a <span class="large-docs">large document/PDF</span> that needs to be read and summarized?</p>
+  </div>
+
+  <!-- Text Content Box -->
+  <div class="container mt-5 pt-5">
+    <h2>Features</h2>
+    <div class="row justify-content-between">
+      <h3><span class="highlight">Upload a document to Analyze or Summarize</span></h3>
+      <div class="col-md-4">
+        <img src="../images/chatbot2.png" class="chatbot-img" alt="Chatbot 1" />
+        <p class="font-effect"><strong>Use the "+" button to add files</strong></p>
+        <p>This feature allows you to upload documents or PDFs, and our AI will summarize the content and provide relevant answers. The search is localized to the uploaded document.</p>
+      </div>
+    </div>
+
+    <hr/>
+
+    <div class="row justify-content-between">
+      <h3><span class="highlight">I love it and would like to try this chatbot!</span></h3>
+      <div class="col-md-4">
+        <img src="images/chatbot2.png" class="chatbot-img" alt="Chatbot 2" />
+        <p class="font-effect"><strong>Please contact admin@MyOrg.gov</strong></p>
+        <p>This feature allows you to upload documents or PDFs, and our AI will summarize the content and provide relevant answers. The search is localized to the uploaded document.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Continue Button -->
+  <button class="continue-button">Continue</button>
+</body>
+</html>
